@@ -10,17 +10,17 @@ import { LuUser } from "react-icons/lu";
 
 type ImageInputContainerProps = {
   image: string;
-  name: string;
+  name?: string;
   action: actionFunction;
-  text: string;
+  text?: string;
   children?: React.ReactNode;
 };
 
 function ImageInputContainer({
   image,
-  name,
+  name = "image",
   action,
-  text,
+  text = "upload image",
   children,
 }: ImageInputContainerProps) {
   const [isUpdateFormvisible, setIsUpdateFormvisible] = useState(false);
