@@ -36,7 +36,7 @@ function AmenitiesInput({
             <Checkbox
               id={amenity.name}
               checked={amenity.selected}
-              onChange={() => handleChange(amenity)}
+              onCheckedChange={() => handleChange(amenity)}
             />
             <label
               htmlFor={amenity.name}

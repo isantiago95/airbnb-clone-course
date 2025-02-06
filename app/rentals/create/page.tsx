@@ -52,9 +52,9 @@ function CreateProperty() {
           <CounterInput detail="bedrooms" />
           <CounterInput detail="beds" />
           <CounterInput detail="baths" />
-          <SubmitButton text="create rental" className="mt-12" />
           <h3 className="text-lg mt-10 mb-6 font-medium">Amenities</h3>
           <AmenitiesInput />
+          <SubmitButton text="create rental" className="mt-12" />
         </FormContainer>
       </div>
     </section>
