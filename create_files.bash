@@ -2,6 +2,7 @@
 
 # use this before run for the first time to give enough permissions:
 # chmod +x create_files.bash
+# to use: ./create_files.bash folder 'file1,file2,file3' (include the extension in the fileNames)
 
 # Check if the correct number of arguments was provided
 if [ "$#" -ne 2 ]; then
