@@ -8,5 +8,5 @@ export const formattedCountries = countries.map((country) => ({
   region: country.region,
 }));
 
-export const findCountryBycode = (code: string) =>
+export const findCountryByCode = (code: string) =>
   formattedCountries.find((country) => country.code === code);
